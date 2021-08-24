@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div class="container">
+
+            <div class="value-input-box">
+                <h1>Stock Profit/Loss</h1>
+                <p id="errormsg"></p>
+                <input type="number" placeholder="Initial Price" id="InitialInput" required>
+                <input type="number" placeholder="Quantity of Stocks" id="QuantityInput" required>
+                <input type="number" placeholder="Current Price" id="PriceInput" required>
+                <button type="submit" id="checkk" class="checkbtn">Check</button>
+            </div>
+
+            <div class="resultbox">
+                <h2 id="resultDisplay"></h2>
+            </div>
+
+        </div>
+
+        <script src="script.js" async defer></script>
+    </body>
+
+</html>
