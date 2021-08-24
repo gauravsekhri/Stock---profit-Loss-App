@@ -1,1 +1,1 @@
-# Stock---profit-Loss-App
+# Stock Profit/Loss App
